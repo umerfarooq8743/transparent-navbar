@@ -1,0 +1,144 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.bgimage {
+  background-image: url('https://c4.wallpaperflare.com/wallpaper/3/413/67/negative-laptop-pens-books-macbook-iphone-apple-inc-wallpaper-preview.jpg');
+  background-size: 100% 110%;
+  width: 100%;
+  height:100vh;
+
+}
+.menu{
+    height: 100px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.leftmenu{
+    width:20% ;
+    height: 100px;
+    float: left;
+    line-height: 100px;
+    font-family: 'condiment';
+    color: rgba(255, 175, 25,0.5);
+    font-size: xx-large;
+}
+.leftmenu h3{
+    padding-left: 70px;
+    color: orange;
+    font-size: 22px;
+    font-weight: bold;
+
+}
+.rightmenu{
+    width: 70%;
+    height: 100px;
+    float:right;
+
+}
+.rightmenu ul li{
+    display: inline-block;
+    color: rgb(235, 235, 235);
+    text-transform: uppercase;
+    font-size: x-large;
+    font-weight: bold;
+    line-height: 100px;
+    margin-left: 30px;    font-family: 'condiment';
+   
+}
+#firstlist{color: rgba(255, 178, 36,0.8);
+
+}
+.rightmenu ul li:hover{color: rgba(255, 178, 36,0.8);
+
+}
+.text{
+    width: 100%;
+    margin-top: 190px;
+    text-transform: uppercase;
+    text-align: center;
+    color: rgba(86, 14, 255,0.5);
+
+}
+.text h4{
+    font-size: 12px;
+}
+.text h3{
+    font-size: 14px;
+
+}
+.text h1{
+    font-size: 62px;
+    font-family: 'condiment';
+}
+/* #btn1{
+    background-color: transparent;
+    border: none;
+  
+    line-height: 40px;
+    width: 150px;
+    font-weight:bold;
+  
+    margin-top: 25px; text-transform: uppercase;  border: 3px solid orange; font-family: 'condiment';font-size: medium;color:  rgba(255, 178, 36,0.8);}
+#btn2{
+    background-color: transparent;
+    border:none ;
+
+    line-height: 40px;
+    width: 150px;
+    font-weight:bold;
+    text-transform: uppercase;
+    border: 3px solid  rgba(255, 178, 36,0.8); margin-top: 25px; font-family: 'condiment';font-size: medium;color: orange; rgba(255, 178, 36,0.8);
+  
+    
+
+} */
+/* #btn1:hover{
+    color: rgb(153, 0, 255);
+
+}
+#btn2:hover{
+    color: rgb(250, 9, 9);
+
+} */
+.button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: rgba(213, 17, 252, 0.2);
+    font-family: 'condiment';
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 250px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    height: 70px;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
